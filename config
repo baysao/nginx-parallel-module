@@ -7,7 +7,9 @@ if test -n "$ngx_module_link"; then
     ngx_module_deps="$ngx_addon_dir/ngx_fixed_buffer_cache.h             \
                 $ngx_addon_dir/ngx_fixed_buffer_cache_internal.h    \
                 "
-
+   ngx_module_incs="$ngx_addon_dir/ngx_fixed_buffer_cache.h             \
+                $ngx_addon_dir/ngx_fixed_buffer_cache_internal.h    \
+                "
     ngx_module_srcs="$ngx_addon_dir/ngx_fixed_buffer_cache.c             \
                 $ngx_addon_dir/ngx_http_parallel_module.c           \
                 "
